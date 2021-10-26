@@ -1,0 +1,49 @@
+#cards {
+
+    .cards-examples {
+        min-height: 300px;
+
+        .card-example {
+            border-radius: 1.3rem;
+            overflow: hidden;
+            box-shadow: 0 0 1rem rgba(0,0,0,.2);
+            transition: all 300ms;
+
+            &.hovered {
+                z-index: 2;
+                border-radius: 1.5rem;
+                img {
+                    width: 320px;
+                }
+            }
+
+            img {
+                width: 260px;
+                height: auto;
+                transition: all 300ms;
+            }
+        }
+
+        @media (min-width: 576px) { 
+            min-height: 400px;
+            .card-example {
+                border-radius: 1.7rem;
+                &.hovered {
+                    border-radius: 2rem;
+                }
+            }
+        }
+
+        @media (min-width: 992px) {
+            min-height: 500px;
+            .card-example {
+                border-radius: 2.7rem;
+                &.hovered {
+                    border-radius: 3rem;
+                }
+            }
+        }
+
+    }
+
+}

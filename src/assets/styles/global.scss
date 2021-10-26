@@ -1,0 +1,23 @@
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
+
+// Fonte principal
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+// Fonte para títulos
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+
+	section {
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+
+}

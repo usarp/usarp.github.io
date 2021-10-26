@@ -1,0 +1,42 @@
+#history {
+
+    .timeline {
+
+        .timeline-item {
+            position: relative;
+
+            .line {
+                position: absolute;
+                padding: 0;
+                left: 1.5rem;
+                height: 100%;
+                width: 1px;
+                background-color: #B9B9B9;
+
+                &::before {
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    border-radius: 50%;      
+                    content: '';
+                    height: 35px;
+                    width: 35px;
+                    background-color: #393939;
+                }
+
+                @media (min-width: 768px) { 
+                    left: 50%;
+                    transform: translateX(-50%);
+
+                    &::before {
+                        height: 50px;
+                        width: 50px;
+                    }
+                }
+            }
+        
+        }
+
+    }
+
+}
