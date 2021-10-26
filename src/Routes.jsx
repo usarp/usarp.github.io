@@ -8,7 +8,7 @@ import Cards from './pages/Cards/';
 export default function Routes() {
 
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename="/">
 
 			<Navbar/>
 
