@@ -1,10 +1,10 @@
 import React from 'react';
 import SectionCards from '../../components/SectionCards/';
 import SectionOverview from '../../components/SectionOverview/';
-import SectionInicio from '../../components/SectionInicio/';
+import SectionStart from '../../components/SectionStart/';
 import SectionHistory from '../../components/SectionHistory/';
 import SectionExamples from '../../components/SectionExamples/';
-import SectionTime from '../../components/SectionTime/';
+import SectionTeam from '../../components/SectionTeam/';
 import Footer from '../../components/Footer/';
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
     return (
         <div>
             
-            <SectionInicio/>    
+            <SectionStart/>    
         
             <SectionOverview/>
 
@@ -22,7 +22,7 @@ export default function Home() {
 
             <SectionExamples/>
         
-            <SectionTime/>
+            <SectionTeam/>
 
             <Footer/>
 
