@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
-import { getCardByKey } from '../../resources/Cards'
+import { getCardByKey } from '../../resources/cards'
 import './styles.scss'
 
 export default function SectionCards() {

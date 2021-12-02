@@ -11,9 +11,39 @@ export default function Cards() {
         img: ''
     });
 
+    const [cardOptions] = useState([
+        {id: 'mechanism', name: 'Mecanismo'},
+        {id: 'requirements', name: 'Requisitos'},
+        {id: 'prototyping', name: 'Prototipação'},
+    ])
+
+    const [selectedOption, setSelectedOption] = useState('mechanism');
+
+    function showCards() {
+
+        if (selectedOption === 'mechanism') {
+            return (
+                <div className="col col-md-6 col-lg-4 col-xxl-3">
+                    <img className="w-100" src={card.img} alt={card.name} />
+                </div>
+            )
+        } else if (card[selectedOption]) {
+            return (
+                card[selectedOption].map(c => {
+                    return (
+                        <div className="col-12 col-md-6 col-lg-4 col-xxl-3 mb-3">
+                            <img className="w-100" src={c.img} alt={card.name} />
+                        </div>
+                    )
+                })
+            )
+        }
+
+    }
+
     return (
         
-        <div id="cards-page" className="container pt-5">
+        <div id="cards-page" className="container">
 
             <div className="row pt-5">
 
@@ -35,10 +65,31 @@ export default function Cards() {
 
                 <div className="col">
                     
-                    <div className="d-flex justify-content-center justify-content-lg-end">
+                    <div className="d-flex flex-column justify-content-center align-items-center">
+                        
+                        <div className="btn-group flex-wrap card-options mb-3">
 
-                        <div className="card-img">
-                            <img src={card.img} alt={card.name} />
+                            {
+                                cardOptions.map(option => {
+
+                                    return (
+                                        <button
+                                            className={selectedOption == option.id ? "btn btn-sm btn-outline-primary active" : "btn btn-sm btn-outline-primary"}
+                                            key={option.id}
+                                            onClick={() => setSelectedOption(option.id)}>
+                                            {option.name}
+                                        </button>
+                                    )
+
+                                })
+                            }
+
+                        </div>
+
+                        <div className="row justify-content-center">
+                            
+                            {showCards()}
+
                         </div>
 
                     </div>

@@ -28,7 +28,7 @@ export default function SectionTeam() {
                                     </div>
                                     
                                     <p className="mb-0 fs-5 fw-bold">Alex Alan</p>
-                                    <p className="text-muted">Descrition</p>
+                                    <p className="text-muted">Estudante de Engenharia de Software na Universidade Federal do Ceará. Pesquisador de Interação Humano Computador, interessado em Data Science, Engenharia de Software e Testes de Software</p>
                                     
                                 </div>
                                 <div className='col-6 col-md-4 text-center'>
@@ -38,7 +38,7 @@ export default function SectionTeam() {
                                     </div>
                                     
                                     <p className="mb-0 fs-5 fw-bold">Ana Beatriz</p>
-                                    <p className="text-muted">Descrition</p>
+                                    <p className="text-muted">Profa. Dra. Anna Beatriz Marques é coordenadora do projeto USINN e orienta a pesquisa sobre elicitação de requisitos de usabilidade, que resultou na técnica USARP. Anna Beatriz atua na área de IHC, com ênfase no design e avaliação de sistemas interativos com foco na usabilidade, experiência do usuário e acessibilidade.</p>
 
                                 </div>
                                 <div className='col-6 col-md-4 text-center'>
@@ -48,7 +48,7 @@ export default function SectionTeam() {
                                     </div>
                                     
                                     <p className="mb-0 fs-5 fw-bold">Liliane</p>
-                                    <p className="text-muted">Descrition</p>
+                                    <p className="text-muted">Estudante de Engenharia de Software na Universidade Federal do Ceará. Atuou como desenvolvedora no núcleo de soluções em software (N2S). E agora atuante como desenvolvedora front-end e back-end no projeto USINN.</p>
 
                                 </div>
                             </div>
@@ -81,7 +81,7 @@ export default function SectionTeam() {
                                     </div>
 
                                     <p className="mb-0 fs-5 fw-bold">Victor</p>
-                                    <p className="text-muted">Descrition</p>
+                                    <p className="text-muted">Estudante de Engenharia de Software na Universidade Federal do Ceará. Estudante de UX|UI Designer e interação humano computador.</p>
 
                                 </div>
                             </div>

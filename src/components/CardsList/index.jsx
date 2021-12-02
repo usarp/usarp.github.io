@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './styles.scss';
-import { getAllCards, getCardByKey } from '../../resources/Cards'
+import { getAllCards, getCardByKey } from '../../resources/cards'
 
 export default function CardsList(props) {
 
@@ -8,7 +8,7 @@ export default function CardsList(props) {
 
     const [selected, setSelected] = useState(null);
 
-    function select_card(card, e = null) {
+    function selectCard(card, e = null) {
         if (e) {
             e.stopPropagation()
         }
@@ -20,7 +20,7 @@ export default function CardsList(props) {
     let initialCard = getCardByKey('M1')
 
     useEffect(() => {
-        select_card(initialCard)
+        selectCard(initialCard)
     }, [initialCard]);
 
     return (
@@ -34,27 +34,9 @@ export default function CardsList(props) {
                         return (
                             <li className={selected === card.id ? 'active' : ''} 
                                 key={card.id} 
-                                onClick={ (e) => select_card(card, e) } > 
+                                onClick={ (e) => selectCard(card, e) } > 
                             
                                 {card.name} 
-
-                                {card.options && card.options.length > 1 && 
-                                    <ul className="options">
-                                        {
-                                            card.options.map(option => {
-                                                return ( 
-                                                    <li className={selected === option.id ? 'active' : ''} 
-                                                        key={option.id} 
-                                                        onClick={ (e) => select_card(option, e) } > 
-                                                    
-                                                        {option.name} 
-
-                                                    </li>
-                                                )
-                                            })
-                                        }
-                                    </ul>
-                                }
 
                             </li>
                         )
@@ -64,8 +46,8 @@ export default function CardsList(props) {
             </ul>
 
             <select 
-                class="form-select d-lg-none"
-                onChange={(e) => select_card(cards.filter(c => c.id === e.target.value)[0], e)} >
+                className="form-select d-lg-none"
+                onChange={(e) => selectCard(cards.filter(c => c.id === e.target.value)[0], e)} >
                 {
                     cards.map(card => {
                         return (

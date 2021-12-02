@@ -1,15 +1,13 @@
-#cards-page {
+@import "../../assets/styles/variables";
 
-    .card-img {
-        width: 320px;
-        border-radius: 2.8rem;
-        overflow: hidden;
-        
-        img {
-            width: 100%;
-            height: auto;
-            object-fit: contain;
-            object-position: center;
+#cards-page {
+    padding-top: 80px;
+
+    .card-options {
+        @media (max-width: 575.98px) {
+            .btn {
+                border-radius: $btn-border-radius-sm !important;
+            }    
         }
     }
 
