@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ba597422.chunk.css",
-    "main.js": "/static/js/main.943a6fd6.chunk.js",
-    "main.js.map": "/static/js/main.943a6fd6.chunk.js.map",
+    "main.js": "/static/js/main.e9f35e5f.chunk.js",
+    "main.js.map": "/static/js/main.e9f35e5f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9d10183b.js",
     "runtime-main.js.map": "/static/js/runtime-main.9d10183b.js.map",
     "static/js/2.3a45fc69.chunk.js": "/static/js/2.3a45fc69.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/Mavi.63106b4a.jpeg": "/static/media/Mavi.63106b4a.jpeg",
     "static/media/Natália.62fc0c36.jpg": "/static/media/Natália.62fc0c36.jpg",
     "static/media/Victor.ede59a22.jpg": "/static/media/Victor.ede59a22.jpg",
+    "static/media/abortar-operacao.b1cd379b.png": "/static/media/abortar-operacao.b1cd379b.png",
     "static/media/ajuda-multinivel.7d8742f5.png": "/static/media/ajuda-multinivel.7d8742f5.png",
     "static/media/alerta.67e67f53.png": "/static/media/alerta.67e67f53.png",
     "static/media/areas-de-objetos-pessoais.0e105a00.png": "/static/media/areas-de-objetos-pessoais.0e105a00.png",
@@ -23,6 +24,7 @@
     "static/media/desfazer.f024f0ae.png": "/static/media/desfazer.f024f0ae.png",
     "static/media/entrada-de-texto-estruturada.67b0f8c5.png": "/static/media/entrada-de-texto-estruturada.67b0f8c5.png",
     "static/media/execucao-passo-a-passo.f7740897.png": "/static/media/execucao-passo-a-passo.f7740897.png",
+    "static/media/favoritos.17607edb.png": "/static/media/favoritos.17607edb.png",
     "static/media/feedback-sobre-o-processo.eefb5729.png": "/static/media/feedback-sobre-o-processo.eefb5729.png",
     "static/media/fundo.03260fbb.png": "/static/media/fundo.03260fbb.png",
     "static/media/interacao.2b156a67.png": "/static/media/interacao.2b156a67.png",
@@ -80,6 +82,6 @@
     "static/js/runtime-main.9d10183b.js",
     "static/js/2.3a45fc69.chunk.js",
     "static/css/main.ba597422.chunk.css",
-    "static/js/main.943a6fd6.chunk.js"
+    "static/js/main.e9f35e5f.chunk.js"
   ]
 }
