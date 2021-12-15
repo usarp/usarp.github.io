@@ -65,7 +65,7 @@ export default function SectionCards() {
 
                     <div className="col-12 text-center mt-2">
 
-                        <button className="btn btn-outline-primary mx-2"> DOWNLOAD PDF </button>
+                        <a href="/USARP_Cartas_v1.pdf" target="_blank" className="btn btn-outline-primary mx-2"> DOWNLOAD PDF </a>
 
                         <Link className="btn btn-primary mx-2 mt-2 mt-sm-0" to="/cartas"> CONFIRA </Link>
 

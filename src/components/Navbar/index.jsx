@@ -30,7 +30,7 @@ export default function Home() {
                                 <Link className="nav-link active" to="/#cards"> Cards </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" to="/#examples"> Exemplos em uso </Link>
+                                <Link className="nav-link active" to="/#examples"> Como adotar o USARP? </Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link active" to="/#team"> Time </Link>
