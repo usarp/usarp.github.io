@@ -40,7 +40,7 @@ export default function SectionTeam() {
         {
             name: 'Maria Victoria Fiori',
             photo: mavi,
-            description: ''
+            description: 'Estudante de Engenharia de Software, integrante do projeto de extensão Meninas Digitais do Vale e do projeto de pesquisa e inovação USINN: A USability- Oriented INteraction and Navigation model.Tenho interesse em pesquisas nas áreas de ensino com gamificação, experiência do usuário, usabilidade e qualidade de sistemas'
         },
         {
             name: 'Natália Lídia Coelho',
