@@ -6,6 +6,7 @@ import SectionHistory from '../../components/SectionHistory/';
 import SectionExamples from '../../components/SectionExamples/';
 import SectionTeam from '../../components/SectionTeam/';
 import Footer from '../../components/Footer/';
+import SectionPartners from '../../components/SectionPartners';
 
 export default function Home() {
     
@@ -23,6 +24,8 @@ export default function Home() {
             <SectionExamples/>
         
             <SectionTeam/>
+
+            <SectionPartners/>
 
             <Footer/>
 

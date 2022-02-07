@@ -6,13 +6,11 @@ export default function SectionOverview() {
         <section id="overview">
 
             <div className="container">
+                
+                <h1 className="fw-bold text-primary"> VISÃO GERAL </h1>
 
                 <div className="row">
-
-                    <div className="col-12">
-                        <h1 className="fw-bold text-primary"> VISÃO GERAL </h1>
-                    </div>
-
+                    
                     <div className="col-12 mt-3">
 
                         USARP (USAbility Requirements with Personas and user stories) é uma técnica para a elicitação

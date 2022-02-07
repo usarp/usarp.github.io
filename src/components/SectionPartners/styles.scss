@@ -1,0 +1,19 @@
+#partners {
+
+    .partner-logo {
+        max-width: 50%;
+        margin: auto;
+        
+        img {
+            opacity: 0.7;
+            transition: opacity 300ms;
+            max-width: 100%;
+            
+            &:hover {
+                opacity: 1;
+            }
+        }
+
+    }
+
+}

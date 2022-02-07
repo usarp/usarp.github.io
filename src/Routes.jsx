@@ -9,13 +9,11 @@ export default function Routes() {
 
 	return (
 		<BrowserRouter basename="/">
-
 			<Navbar/>
 
 			<Switch>
                 <Route path="/" exact component={Home}/>
 				<Route path="/cartas" exact component={Cards}/>
-
 			</Switch>
 
 		</BrowserRouter>

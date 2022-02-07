@@ -35,6 +35,9 @@ export default function Home() {
                             <li className="nav-item">
                                 <Link className="nav-link active" to="/#team"> Time </Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link active" to="/#partners"> Parceiros </Link>
+                            </li>
                         </ul>
                     
                     </div>

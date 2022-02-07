@@ -1,9 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import CardsList from '../../components/CardsList/';
+import Footer from '../../components/Footer/';
 
 import './styles.scss';
 
 export default function Cards() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     const [card, setCard] = useState({
         id: '',
@@ -42,53 +46,57 @@ export default function Cards() {
     }
 
     return (
-        
-        <div id="cards-page" className="container">
 
-            <div className="row pt-5">
+        <main id="cards-page">
 
-                <div className="col-12">
+            <div className="container mb-5">
 
-                    <h1 className="text-primary fw-bold"> CARDS </h1>
+                <div className="row pt-5">
 
-                </div>
+                    <div className="col-12">
 
-            </div>
+                        <h1 className="text-primary fw-bold"> CARDS </h1>
 
-            <div className="row mt-3">
-
-                <div className="col-12 col-lg-3 mb-4 mb-lg-0">
-
-                    <CardsList onSelectedCard={(card) => setCard(card)} />
+                    </div>
 
                 </div>
 
-                <div className="col">
-                    
-                    <div className="d-flex flex-column justify-content-center align-items-center">
+                <div className="row mt-3">
+
+                    <div className="col-12 col-lg-3 mb-4 mb-lg-0">
+
+                        <CardsList onSelectedCard={(card) => setCard(card)} />
+
+                    </div>
+
+                    <div className="col">
                         
-                        <div className="btn-group flex-wrap card-options mb-3">
-
-                            {
-                                cardOptions.map(option => {
-
-                                    return (
-                                        <button
-                                            className={selectedOption == option.id ? "btn btn-sm btn-outline-primary active" : "btn btn-sm btn-outline-primary"}
-                                            key={option.id}
-                                            onClick={() => setSelectedOption(option.id)}>
-                                            {option.name}
-                                        </button>
-                                    )
-
-                                })
-                            }
-
-                        </div>
-
-                        <div className="row justify-content-center">
+                        <div className="d-flex flex-column justify-content-center align-items-center">
                             
-                            {showCards()}
+                            <div className="btn-group flex-wrap card-options mb-3">
+
+                                {
+                                    cardOptions.map(option => {
+
+                                        return (
+                                            <button
+                                                className={selectedOption == option.id ? "btn btn-sm btn-outline-primary active" : "btn btn-sm btn-outline-primary"}
+                                                key={option.id}
+                                                onClick={() => setSelectedOption(option.id)}>
+                                                {option.name}
+                                            </button>
+                                        )
+
+                                    })
+                                }
+
+                            </div>
+
+                            <div className="row justify-content-center">
+                                
+                                {showCards()}
+
+                            </div>
 
                         </div>
 
@@ -98,7 +106,9 @@ export default function Cards() {
 
             </div>
 
-        </div>
+            <Footer/>
+
+        </main>
 
     )
 

@@ -73,7 +73,7 @@ export default function SectionTeam() {
                                     team.map((item, index) => {
                                         return (
 
-                                            <div key={index} className='col-6 col-md-4 py-3 text-center'>
+                                            <div key={index} className='col-12 col-sm-6 col-md-4 py-3 text-center'>
 
                                                 <div className='box mx-auto'>
                                                     <img className='w-100' src={item.photo} />
