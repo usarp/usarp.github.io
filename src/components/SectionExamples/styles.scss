@@ -30,3 +30,53 @@
         }
     }
 }
+
+#cards {
+
+    .cards-examples {
+        min-height: 200px;
+
+        .card-example {
+            border-radius: 0.5rem;
+            overflow: hidden;
+            box-shadow: 0 0 1rem rgba(0,0,0,.2);
+            transition: all 300ms;
+
+            &.hovered {
+                z-index: 2;
+                border-radius: 0rem;
+                img {
+                    width: 320px;
+                }
+            }
+
+            img {
+                width: 260px;
+                height: auto;
+                transition: all 300ms;
+            }
+        }
+
+        @media (min-width: 576px) { 
+            min-height: 400px;
+            .card-example {
+                border-radius: 0rem;
+                &.hovered {
+                    border-radius: 0rem;
+                }
+            }
+        }
+
+        @media (min-width: 992px) {
+            min-height: 200px;
+            .card-example {
+                border-radius: 0rem;
+                &.hovered {
+                    border-radius: 0rem;
+                }
+            }
+        }
+
+    }
+
+}

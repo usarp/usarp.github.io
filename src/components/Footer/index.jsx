@@ -35,8 +35,9 @@ export default function Footer() {
 
                         <Link className='mb-2 text-reset text-decoration-none' to="/#overview"> Visão Geral </Link>
                         <Link className='mb-2 text-reset text-decoration-none' to="/#history"> História </Link>
-                        <Link className='mb-2 text-reset text-decoration-none' to="/#cards"> Cards </Link>
+                        <Link className='mb-2 text-reset text-decoration-none' to="/cartas"> Cartas </Link>
                         <Link className='mb-2 text-reset text-decoration-none' to="/#examples"> Como adotar o USARP? </Link>
+                        <Link className='mb-2 text-reset text-decoration-none' to="/materiais"> Materiais </Link>
                         <Link className='mb-2 text-reset text-decoration-none' to="/#team"> Time </Link>
                         <Link className='text-reset text-decoration-none' to="/#partners"> Parceiros </Link>
 

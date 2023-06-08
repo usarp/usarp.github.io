@@ -1,5 +1,4 @@
 import React from 'react';
-import SectionCards from '../../components/SectionCards/';
 import SectionOverview from '../../components/SectionOverview/';
 import SectionStart from '../../components/SectionStart/';
 import SectionHistory from '../../components/SectionHistory/';
@@ -18,8 +17,6 @@ export default function Home() {
             <SectionOverview/>
 
             <SectionHistory/>
-
-            <SectionCards/>
 
             <SectionExamples/>
         

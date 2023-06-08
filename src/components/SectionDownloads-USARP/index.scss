@@ -1,0 +1,50 @@
+#artigos{
+    padding: 25px;
+
+    .style_card{
+        width: 540px;
+        min-height: 250px;
+        max-height:250px; 
+        overflow:hidden;
+    }
+    .card{
+        
+        .img-fluid{
+            height: 100%;
+            object-fit: cover;
+        }
+        .card-body{
+            
+            .card-text{
+
+                    font-size: inherit;
+                    line-height: 0.9;
+
+                
+            }
+        }
+    }
+}
+
+#cards{
+    padding: 25px;
+    .card{
+        
+        .img-fluid{
+            height: 100%;
+            object-fit: cover;
+
+            .card-body{
+                font-family: Ubunto;
+                    
+                    .btn{
+                        padding: 1em 1em;
+                    }
+
+
+            }
+
+        }
+
+    }
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import 'bootstrap';
 import './navbar.scss'
+import logo_usarp from '../../assets/img/logos/logo_usarp.png';
 
 export default function Home() {
     
@@ -11,7 +12,9 @@ export default function Home() {
                 
                 <div className="container-fluid">
                 
-                    <Link className="navbar-brand logo" to="/"> USARP </Link>
+                    <Link className="navbar-brand logo" to="/"> 
+                    <img src={logo_usarp} alt="logo USARP" width="30" height="24" class="d-inline-block align-text-top" style={{"margin-right":"5px"}}></img>
+                      USARP</Link>
 
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -27,10 +30,13 @@ export default function Home() {
                                 <Link className="nav-link active" to="/#history"> História </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" to="/#cards"> Cards </Link>
+                                <Link className="nav-link active" to="/cartas"> Cartas </Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link active" to="/#examples"> Como adotar o USARP? </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link active" to="/materiais"> Materiais </Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link active" to="/#team"> Time </Link>

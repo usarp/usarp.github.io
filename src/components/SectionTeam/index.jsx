@@ -7,6 +7,7 @@ import liliane from '../../assets/img/team/Liliane.jpg'
 import mavi from '../../assets/img/team/Mavi.jpeg'
 import victor from '../../assets/img/team/Victor.jpg'
 import natalia from '../../assets/img/team/Natália.jpg'
+import mateus from '../../assets/img/team/Mateus.jpeg'
 import './style.scss'
 
 export default function SectionTeam() {
@@ -51,6 +52,11 @@ export default function SectionTeam() {
             name: 'Victor Coelho',
             photo: victor,
             description: 'Estudante de Engenharia de Software na Universidade Federal do Ceará. Estudante de UX|UI Designer e interação humano computador'
+        },
+        {
+            name: 'Mateus Eugênio de Andrade',
+            photo: mateus,
+            description: 'Estudante de Engenharia de Software na Universidade Federal do Ceará. Desenvolvedor WEB na USINN.'
         }
     ])
 

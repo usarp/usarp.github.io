@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import './styles.scss';
+import { Link } from 'react-router-dom';
+import { getCardByKey } from '../../resources/cards'
 
 export default function SectionExamples() {
 
@@ -18,6 +20,16 @@ export default function SectionExamples() {
         },
     ]);
 
+    const [firsthovered, setFirstHovered] = useState(false);
+    const toggleFirstHover = () => { setFirstHovered(!firsthovered); toggleSecondHover() };
+
+    const [secondHovered, setSecondHovered] = useState(true);
+    const toggleSecondHover = () => {setSecondHovered(!secondHovered)};
+
+    const [thirdHovered, setThirdHovered] = useState(false);
+    const toggleThirdHover = () => { setThirdHovered(!thirdHovered); toggleSecondHover() };
+
+
     return (
 
         <section id="examples">
@@ -33,6 +45,49 @@ export default function SectionExamples() {
                             Veja alguns passos necessários para melhor entendimento de como aplicar a USARP em seu
                             contexto.
                         </p>
+
+                        <section id="cards">
+
+                                <div className="row">
+        
+                                    <div className="col-12">
+
+                                        <div className="cards-examples d-flex justify-content-center align-items-center">
+
+                                            <div 
+                                                className={firsthovered ? 'card-example me-n2 hovered' : 'card-example me-n2'}
+                                                onMouseEnter={toggleFirstHover}
+                                                onMouseLeave={toggleFirstHover}>
+
+                                                <img className="img-fluid" src={getCardByKey('M1').img} alt={getCardByKey('M1').name} />
+
+                                            </div>
+
+                                            <div 
+                                                className={secondHovered ? 'card-example hovered' : 'card-example'}>
+
+                                                <img className="img-fluid" src={getCardByKey('M2').img} alt={getCardByKey('M2').name} />
+
+                                            </div>
+                
+                                            <div 
+                                                className={thirdHovered ? 'card-example ms-n2 hovered' : 'card-example ms-n2'}
+                                                onMouseEnter={toggleThirdHover}
+                                                onMouseLeave={toggleThirdHover}>
+
+                                                <img className="img-fluid" src={getCardByKey('M3').img} alt={getCardByKey('M3').name} />
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                
+                        </section>
+
+
 
                     </div>
 
