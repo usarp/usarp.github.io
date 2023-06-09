@@ -138,7 +138,7 @@ export default function SectionDownloadsUSARP() {
                                 <div className="col-md-8">
                                         <div className="card-body">
                                         <h6 classNames="card-title">Inserindo um olhar de IHC no ensino de Engenharia de Requisitos: um relato de experiência</h6>
-                                        <p className="card-text tamanho"><small className="text-muted">Autores:Alex Alan Santos, Maria Elanne Mendes e Anna Beatriz Marques</small></p>
+                                        <p className="card-text tamanho"><small className="text-muted">Autores: Alex Alan Santos, Maria Elanne Mendes e Anna Beatriz Marques</small></p>
                                         <p className="card-text"><small className="text-muted">Publicado em: 17/10/2022</small></p>
                                             <div className="col-12 text-center mt-2 d-flex flex-column">
                                                 <a href="https://sol.sbc.org.br/index.php/weihc/article/view/22853" target="_blank" className="btn btn-outline-primary mx-2 my-3">ACESSE O ARTIGO</a>
