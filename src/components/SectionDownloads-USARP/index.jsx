@@ -138,7 +138,7 @@ export default function SectionDownloadsUSARP() {
                                 <div className="col-md-8">
                                         <div className="card-body">
                                         <h6 classNames="card-title">Inserindo um olhar de IHC no ensino de Engenharia de Requisitos: um relato de experiência</h6>
-                                        <p className="card-text tamanho"><small className="text-muted">Autores: Anna Beatriz Marques, Alex Alan Santos e Maria Elanne Mendes</small></p>
+                                        <p className="card-text tamanho"><small className="text-muted">Autores:Alex Alan Santos, Maria Elanne Mendes e Anna Beatriz Marques</small></p>
                                         <p className="card-text"><small className="text-muted">Publicado em: 17/10/2022</small></p>
                                             <div className="col-12 text-center mt-2 d-flex flex-column">
                                                 <a href="https://sol.sbc.org.br/index.php/weihc/article/view/22853" target="_blank" className="btn btn-outline-primary mx-2 my-3">ACESSE O ARTIGO</a>
@@ -157,7 +157,7 @@ export default function SectionDownloadsUSARP() {
                                 <div className="col-md-8">
                                         <div className="card-body">
                                         <h6 classNames="card-title">USARP method: eliciting and describing USAbility Requirements with Personas and user stories</h6>
-                                        <p className="card-text tamanho"><small className="text-muted">Autores: Anna Beatriz Marques, Bruna Ferreira e Gabriel F. de Oliveira</small></p>
+                                        <p className="card-text tamanho"><small className="text-muted">Autores: Gabriel F. de Oliveira, Bruna Ferreira e Anna Beatriz Marques</small></p>
                                         <p className="card-text"><small className="text-muted">Publicado em: 21/10/2022</small></p>
                                             <div className="col-12 text-center mt-2 d-flex flex-column">
                                                 <a href="https://dl.acm.org/doi/abs/10.1145/3422392.3422435?casa_token=H4TOZxa0efMAAAAA:dkeMEuPL88_IqX69-XWeI6HcmRQX_PxWpM91UXZO7bPlv1ek3Rl3LU9jeJmRWCY1KuaAyAGEic_ROQ" target="_blank" className="btn btn-outline-primary mx-2 my-3">ACESSE O ARTIGO</a>
