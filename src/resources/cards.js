@@ -20,7 +20,7 @@ const cards = [
     { id: 'M1', name: 'Status do Sistema', img: status, requirements: getReq('M1').options, prototyping: getProt('M1').options},
     { id: 'M2', name: 'Interação', img: interacao, requirements: getReq('M2').options, prototyping: getProt('M2').options},
     { id: 'M3', name: 'Alerta', img: alerta, requirements: getReq('M3').options, prototyping: getProt('M3').options },
-    { id: 'M4', name: 'Feedback sobre o processo', img: feedback, requirements: getReq('M4').options, prototyping: getProt('M4').options },
+    { id: 'M4', name: 'Feedback sobre o progresso', img: feedback, requirements: getReq('M4').options, prototyping: getProt('M4').options },
     { id: 'M5', name: 'Desfazer', img: desfazer, requirements: getReq('M5').options, prototyping: getProt('M5').options },
     { id: 'M6', name: 'Abortar Operação', img: abortar, requirements: getReq('M6').options, prototyping: getProt('M6').options },
     { id: 'M7', name: 'Cancelar', img: cancelar, requirements: getReq('M7').options, prototyping: getProt('M7').options },

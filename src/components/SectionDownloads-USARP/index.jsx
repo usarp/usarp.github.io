@@ -70,9 +70,9 @@ export default function SectionDownloadsUSARP() {
                                         <div className="card-body">
                                         <h5 classNames="card-title">Board Figma</h5>
                                         <p className="card-text">Acesse o Board para ter mais contre de suas ações com as cartas USARP e o checklist.</p>
-                                        <p className="card-text"><small className="text-muted">Ultima atualização: 30/05/2023</small></p>
+                                        <p className="card-text"><small className="text-muted">Ultima atualização: 09/10/2023</small></p>
                                             <div className="col-12 text-center mt-2 d-flex flex-column">
-                                                <a href="https://www.figma.com/file/PeVFtfWHRBVTSFwhfaaGLK/Untitled?type=whiteboard&node-id=0%3A1&t=bAuDARYD8K1iBPIy-1" target="_blank" className="btn btn-outline-primary mx-2 my-3">ACESSE O BOARD</a>
+                                                <a href="https://www.figma.com/file/ttTwAPt3YHFA8hJzUyFoDk/Brainstorm-USARP---Template?type=whiteboard&node-id=0%3A1&t=9hIYPcMl5dIK7Fg7-1" target="_blank" className="btn btn-outline-primary mx-2 my-3">ACESSE O BOARD</a>
                                             </div>
                                         </div>
                                 </div>
